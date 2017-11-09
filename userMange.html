@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>乐淘云购后台管理系统</title>
+  <!-- 引入bootstrap库 -->
+  <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+  <!-- 引入NProgress -->
+  <link rel="stylesheet" href="./lib/nprogress/nprogress.css">
+  <!-- 引入表单验证插件的css -->
+  <link rel="stylesheet" href="./lib/bootstrap-validator/css/bootstrapValidator.min.css">
+  <!-- 引入当前页面的css -->
+  <link rel="stylesheet" href="./css/admin.css">
+</head>
+<body>
+  <aside>
+      <div class="logo">
+        <a href="javascript:;">ITCAST</a>
+      </div>
+      <div class="user">
+        <img src="./images/default.png" alt="">
+        <span>超级管理员</span>  
+      </div>
+      <div class="menu">
+        <ul class="manage">
+          <li>
+            <a href="javascript:;">
+              <i class='glyphicon glyphicon-user'></i> 用户管理
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <i class="glyphicon glyphicon-list"></i> 分类管理
+            </a>
+            <div class="category">
+              <a href="javascript:;">一级分类</a>
+              <a href="javascript:;">二级分类</a>              
+            </div>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <i class="glyphicon glyphicon-tags"></i> 商品管理
+            </a>
+          </li>
+        </ul>
+      </div>
+  </aside>
+  <section>
+      <div class="nav">
+        <a data-menu href="javascript:;">
+          <i class="glyphicon glyphicon-align-justify"></i>
+        </a>
+        <a data-toggle="modal" href="#myModal" data-logout>
+          <i class="glyphicon glyphicon-log-out"></i>
+        </a>
+        <div class="modal fade" id="myModal" tabindex="-1">
+          <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">温馨提示</h4>
+              </div>
+              <div class="modal-body">
+                <p>
+                  <i class="glyphicon glyphicon-info-sign"></i> 您确定要退出后台管理系统吗？
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                <button type="button" class="btn btn-primary">确定</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="container-fluid">
+          <ol class="breadcrumb">
+            <li>
+              <a href="#">管理系统</a>
+            </li>
+            <li class="active">用户管理</li>
+          </ol>
+        </div>
+      </div>
+  </section>
+
+
+  <!-- 引入jquery -->
+  <script src="./lib/jquery/jquery.min.js"></script>
+  <!-- 引入bootstrap的插件 -->
+  <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+  <!-- 引入echarts库 -->
+  <script src="./lib/echarts/echarts.min.js"></script>
+  <!-- 引入表单验证的插件 -->
+  <script src="./lib/bootstrap-validator/js/bootstrapValidator.min.js"></script>
+  <!-- 引入进度条插件 -->
+  <script src="./lib/nprogress/nprogress.js"></script>
+  <!-- 引入admin文件 -->
+  <script src="./js/admin.js"></script>
+  <!-- 引入index.js -->
+  <script src="./js/index.js"></script>
+</body>
+</html>
