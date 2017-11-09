@@ -1,0 +1,121 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Microsoft YaHei';
+}
+a:hover,
+a:active,
+a:visited,
+a:focus
+ {
+    text-decoration: none; 
+}
+ul {
+    list-style: none;
+}
+aside {
+    width:180px;
+    height:100%;
+    background-color:#222d32;
+    position: absolute;
+}
+.logo {
+    width: 180px;
+    height:50px;
+    background-color: #367fa9;
+}
+.logo a {
+    display: block;
+    line-height:50px;
+    text-align:center;
+    color:#fff;
+    font-size: 20px;
+    font-weight:bold;
+}
+.user {
+    padding:30px 20px;
+}
+.user img {
+    width:50px;
+    height:auto;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.user span {
+    color:#fff;
+    font-size:12px;
+}
+.menu {
+    width:180px;
+    /* padding:0 30px; */
+    
+}
+.menu ul {
+    border-left-color:#3c8dbc;
+}
+.menu .manage {
+    width:100%;
+    margin: 0;
+    padding: 0;
+}
+.menu .manage a {
+    display:block;
+    height:40px;
+    width:180px;
+    line-height: 40px;
+    color:#aaa;
+    border:3px solid transparent;
+    padding:0 30px;
+}
+
+.menu .category {
+    padding:0 20px;
+    display: none;
+}
+.menu .category a {
+    display: block;
+    height:30px;
+    line-height:30px;
+    font-size:12px;
+}
+
+section {
+    padding-left:180px;
+    height:100%;
+}
+section.menu_se {
+    padding-left:0;
+}
+section .nav {
+    background-color: #3c8dbc;
+    height:50px;
+    margin-bottom:20px; 
+}
+section .modal-body p {
+    color:#a94442;
+}
+section .nav a {
+    color:#fff;
+    font-size:16px;
+}
+section .nav a:first-child i {
+    float: left;
+    margin-left:15px;
+    margin-top:15px;
+}
+section .nav a:nth-child(2) i {
+    float: right;
+    margin-right:15px;
+    margin-top:15px;
+}
+.content .left_cavas {
+    float: left;
+    width:45%;
+    height:400px;
+}
+.content .right_cavas {
+    float: right;
+    width:45%;
+    height:400px;
+    margin-left:10%;
+}
